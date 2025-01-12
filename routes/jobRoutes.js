@@ -1,6 +1,6 @@
 const express = require('express');
-const Job = require('../models/Job.');
-const User = require('../models/User.');
+const Job = require('../models/Jobs.js');
+const User = require('../models/Users.js');
 const router = express.Router();
 
 // Create Job
